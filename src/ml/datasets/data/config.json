@@ -1,0 +1,486 @@
+{
+    "results": {
+        "seed": 42,
+        "datasets": {
+            "A": {
+                "clusters": {
+                    "noise_A": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "random",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "complete",
+                            "metric": "euclidean"
+                        }
+                    },
+                    "noise_B": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "ward",
+                            "metric": "euclidean"
+                        }
+                    },
+                    "noise_C": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "ward",
+                            "metric": "euclidean"
+                        }
+                    },
+                    "all": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "random",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "ward",
+                            "metric": "euclidean"
+                        }
+                    }
+                }
+            },
+            "B": {
+                "clusters": {
+                    "noise_A": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "average",
+                            "metric": "manhattan"
+                        }
+                    },
+                    "noise_B": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "complete",
+                            "metric": "manhattan"
+                        }
+                    },
+                    "noise_C": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "complete",
+                            "metric": "cosine"
+                        }
+                    },
+                    "all": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "average",
+                            "metric": "cosine"
+                        }
+                    }
+                }
+            },
+            "C": {
+                "clusters": {
+                    "noise_A": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "average",
+                            "metric": "manhattan"
+                        }
+                    },
+                    "noise_B": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "complete",
+                            "metric": "manhattan"
+                        }
+                    },
+                    "noise_C": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "random",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "ward",
+                            "metric": "euclidean"
+                        }
+                    },
+                    "all": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "ward",
+                            "metric": "euclidean"
+                        }
+                    }
+                }
+            },
+            "D": {
+                "clusters": {
+                    "noise_A": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "random",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "complete",
+                            "metric": "manhattan"
+                        }
+                    },
+                    "noise_B": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "random",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "single",
+                            "metric": "manhattan"
+                        }
+                    },
+                    "noise_C": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "complete",
+                            "metric": "manhattan"
+                        }
+                    },
+                    "all": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "ward",
+                            "metric": "euclidean"
+                        }
+                    }
+                }
+            },
+            "E": {
+                "clusters": {
+                    "noise_A": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "random",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "average",
+                            "metric": "euclidean"
+                        }
+                    },
+                    "noise_B": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "complete",
+                            "metric": "manhattan"
+                        }
+                    },
+                    "noise_C": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "ward",
+                            "metric": "euclidean"
+                        }
+                    },
+                    "all": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "ward",
+                            "metric": "euclidean"
+                        }
+                    }
+                }
+            },
+            "F": {
+                "clusters": {
+                    "noise_A": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "random",
+                            "max_iter": 100
+                        },
+                        "hclust": {
+                            "linkage": "complete",
+                            "metric": "manhattan"
+                        }
+                    },
+                    "noise_B": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "ward",
+                            "metric": "euclidean"
+                        }
+                    },
+                    "noise_C": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "ward",
+                            "metric": "euclidean"
+                        }
+                    },
+                    "all": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "ward",
+                            "metric": "euclidean"
+                        }
+                    }
+                }
+            },
+            "G": {
+                "clusters": {
+                    "noise_A": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "random",
+                            "max_iter": 100
+                        },
+                        "hclust": {
+                            "linkage": "ward",
+                            "metric": "euclidean"
+                        }
+                    },
+                    "noise_B": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "single",
+                            "metric": "manhattan"
+                        }
+                    },
+                    "noise_C": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "complete",
+                            "metric": "euclidean"
+                        }
+                    },
+                    "all": {
+                        "k_means": {
+                            "algorithm": "lloyd",
+                            "init": "k-means++",
+                            "max_iter": 10
+                        },
+                        "hclust": {
+                            "linkage": "complete",
+                            "metric": "euclidean"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "datasets": {
+        "A": {
+            "labels": {
+                "7C_7N": 0,
+                "7N_7C": 0,
+                "7C_7C": 1,
+                "7N_7N": 1
+            },
+            "n_clusters": 2
+        },
+        "B": {
+            "labels": {
+                "15C_15N": 0,
+                "15N_15C": 0,
+                "15C_15C": 1,
+                "15N_15N": 1
+            },
+            "n_clusters": 2
+        },
+        "C": {
+            "labels": {
+                "7C_7N": 0,
+                "7N_7C": 0,
+                "7C_7C": 0,
+                "7N_7N": 0,
+                "15C_15N": 1,
+                "15N_15C": 1,
+                "15C_15C": 1,
+                "15N_15N": 1
+            },
+            "n_clusters": 2
+        },
+        "D": {
+            "labels": {
+                "3N_3N": 0,
+                "7C_7N": 1,
+                "7N_7C": 1,
+                "7C_7C": 1,
+                "7N_7N": 1,
+                "15C_15N": 2,
+                "15N_15C": 2,
+                "15C_15C": 2,
+                "15N_15N": 2
+            },
+            "n_clusters": 3
+        },
+        "E": {
+            "labels": {
+                "7C_7N": 0,
+                "7N_7C": 0,
+                "15C_15N": 0,
+                "15N_15C": 0,
+                "7C_7C": 1,
+                "7N_7N": 1,
+                "15C_15C": 1,
+                "15N_15N": 1
+            },
+            "n_clusters": 2
+        },
+        "F": {
+            "labels": {
+                "7C_7C": 0,
+                "7N_7N": 1,
+                "15C_15C": 2,
+                "15N_15N": 3
+            },
+            "n_clusters": 4
+        },
+        "G": {
+            "labels": {
+                "7C_7C": 0,
+                "7N_7N": 0,
+                "15C_15C": 1,
+                "15N_15N": 1
+            },
+            "n_clusters": 2
+        },
+        "H": {
+            "labels": {
+                "7C_7C": "C-C",
+                "7C_7N": "C-N",
+                "7N_7C": "N-C",
+                "7N_7N": "N-N"
+            }
+        },
+        "I": {
+            "labels": {
+                "15C_15C": "C-C",
+                "15C_15N": "C-N",
+                "15N_15C": "N-C",
+                "15N_15N": "N-N"
+            }
+        },
+        "J": {
+            "labels": {
+                "7C_7C": "CCIR",
+                "7N_7N": "NAB"
+            }
+        },
+        "K": {
+            "labels": {
+                "15C_15C": "CCIR",
+                "15N_15N": "NAB"
+            }
+        },
+        "L": {
+            "labels": {
+                "7C_7N": "7.5 ips",
+                "7N_7C": "7.5 ips",
+                "7C_7C": "7.5 ips",
+                "7N_7N": "7.5 ips",
+                "15C_15N": "15 ips",
+                "15N_15C": "15 ips",
+                "15C_15C": "15 ips",
+                "15N_15N": "15 ips"
+            }
+        }
+    },
+    "targets": {
+        "test": {
+            "path": "test.csv",
+            "labels": {
+                "BERIO074": "7C",
+                "BERIO079": "15N",
+                "BERIO103": "15N",
+                "BERIO105": "7C",
+                "BERIO215": "15C",
+                "BERIO217": "15N",
+                "BERIO226": "7N",
+                "BERIO236": "7C",
+                "BERIO252": "7N",
+                "BERIO288": "7N",
+                "BERIO295": "7C",
+                "BERIO296": "15N",
+                "BERIO305": "7N",
+                "BERIO307": "7C",
+                "BERIO309": "7C",
+                "BERIO328": "15C",
+                "LNONO058": "15N",
+                "LNONO073": "15C"
+            }
+        }
+    }
+}
