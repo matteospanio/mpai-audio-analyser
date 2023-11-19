@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Spanio"
+  given-names: "Matteo"
+title: "mpai-audio-analyser"
+url: "https://github.com/matteospanio/mpai-audio-analyser"
+preferred-citation: 
+type: thesis
+  title: "A study on Equalization Curve Detection in Audio Tape Digitization process using Artificial Intelligence"
+  year: 2023
+  month: 1
+  doi: 10.13140/RG.2.2.36838.50247
+  url: https://doi.org/10.13140/rg.2.2.36838.50247
+  authors:
+  - family-names: "Spanio"
+    given-names: "Matteo"
