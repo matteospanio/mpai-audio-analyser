@@ -91,10 +91,3 @@ poetry run jupyter notebook ./notebooks
 ```
 
 [^1]: If you are not familiar with poetry, you can find more information [here](https://python-poetry.org/docs/basic-usage/#activating-the-virtual-environment).
-
-## TO BE IMPLEMENTED 
-
-1. The offset calculation between audio and video is not implemented yet.
-2. The audio-analyser CLI command is generating only one irregularity file for each input file, but it should generate two (one for the Tape Irregularity Classifier and one for the Video Analyser)
-3. At the moment Irregularities from the Video Analyser are not being considered.
-4. Some tests are missing, be careful when using the package.
