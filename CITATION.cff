@@ -5,7 +5,7 @@ authors:
 - family-names: "Spanio"
   given-names: "Matteo"
 title: "mpai-audio-analyser"
-version: v0.1.0
+version: v0.1.1
 url: "https://github.com/matteospanio/mpai-audio-analyser"
 preferred-citation: 
   type: unpublished
